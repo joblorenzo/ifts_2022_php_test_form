@@ -1,0 +1,133 @@
+nav a:hover{
+    color:white;
+}
+nav a{
+    color:#ffffff;
+    display: inline;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+h1{
+    padding-left: 150px;
+}
+
+a img{
+    height: 40px;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 95%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.30s ease-out;
+}
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.login{
+        position: relative;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin: auto;
+        margin-top: 100px;
+        width: 50%;
+        border:1px solid #0d6efd;
+        padding: 50px;
+
+        font-weight: bold;
+        color:#0d6efd;
+}
+.searchbar{
+    position: relative;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    border:1px solid #0d6efd;
+    padding: 50px;
+
+    font-weight: bold;
+    color:#0d6efd;
+}
+h2{
+    padding-top: 100px;
+    font-weight: bold;
+    color:#0d6efd;
+    text-align: center;
+}
+h3{
+    padding-top: 20px;
+    font-weight: bold;
+    color:#0d6efd;
+    text-align: center;
+}
+
+footer{
+    background-color: #0d6efd;
+
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+#footer-div{
+    padding-bottom: 83px;
+    font-weight: bold;
+    color:#ffffff;
+    text-align: center;
+}
+/*###############################################################*/
+/*TABLE*/
+#table-div{
+        position: relative;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin: auto;
+        margin-top: 100px;
+        width: 70%;
+        border:1px solid #0d6efd;
+        padding: 50px;
+
+        font-weight: bold;
+        color:#0d6efd;
+}
+/*centra nel div elemento, modifica #table-div width se sfora*/
+table {
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+    width: auto;
+  }
+    #customers td, #customers th {
+        border: 1px solid #0d6efd;
+        padding: 8px;
+    }
+    #customers tr:nth-child(even){background-color: #a1b5d2 ;}
+    #customers tr:hover {background-color: #eddf5e;}
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #0d6efd;
+        color: white;
+    }
+    button{
+        border-radius: 7px 7px;
+        background-color: whitesmoke;
+    }
